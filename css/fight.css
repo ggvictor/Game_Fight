@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+     background-color: #281D45;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #281D45;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+h2{
+    color: #FF22B8;
+    margin-top: 40px;
+    margin-bottom:40px;
+    text-shadow:
+    -3px -3px 0 black,
+     3px -3px 0 black,
+    -3px  3px 0 black,
+     3px  3px 0 black;
+}
+.ringue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #433076;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.ringue img{
+    height: 150px;
+}
+.ringue button{
+   cursor: pointer;
+   padding: 20px;
+   margin-top: 30px;
+   background-color: #FF22B8;
+   border: none;
+   border-radius: 60px;
+   color: white;
+   border: 2px solid black;
+   transition: .8s;
+}
+.characters{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
