@@ -30,7 +30,12 @@ h2{
 div.personagens img{
     height: 150px;
     cursor: pointer;
+    transition: 0.3s;
 }
+div.personagens img:hover{
+    border: 3px solid white;
+}
+
 div.container{
     display: flex;
     flex-direction: column;

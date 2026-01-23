@@ -29,6 +29,7 @@ h2{
 }
 .ringue{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
@@ -50,6 +51,12 @@ h2{
    color: white;
    border: 2px solid black;
    transition: .8s;
+   display: flex;
+}
+.ringue button:hover{
+   background-color: white;
+   color: #FF22B8;
+     
 }
 .characters{ 
     display: flex;
@@ -57,4 +64,38 @@ h2{
     justify-content: center;
     align-items: center;
     padding: 20px;
+}
+.attributes{
+    display: none;
+    gap: 140px;
+}
+.att{
+    color: white; 
+}
+.att p {
+    margin-bottom: 7px;
+}
+.text{
+    display: none;
+}
+.names{
+    display: flex;
+    color: white; 
+    gap: 250px;
+    margin-top: 10px;
+}
+.names p {
+     text-shadow:
+    -3px -3px 0 black,
+     3px -3px 0 black,
+    -3px  3px 0 black,
+     3px  3px 0 black;
+}
+.loading{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
 }
