@@ -39,6 +39,22 @@ const personagens = [
     mp:Math.floor(Math.random()*80+5),
     profile: "img/itadori_fight.png"
   },
+  {
+    nome:"Midoriya",
+    força:Math.floor(Math.random()*70+3),
+    inteligencia:Math.floor(Math.random()*80+5),
+    agilidade:Math.floor(Math.random()*60+7),
+    mp:Math.floor(Math.random()*75+10),
+    profile: "img/midoriya_fight.png"
+  },
+  {
+    nome:"Asta",
+    força:Math.floor(Math.random()*90+5),
+    inteligencia:Math.floor(Math.random()*50+10),
+    agilidade:Math.floor(Math.random()*70+5),
+    mp:Math.floor(Math.random()*65+7),
+    profile: "img/midoriya_fight.png"
+  },
 ]
 
 const img = document.querySelectorAll(".img");
