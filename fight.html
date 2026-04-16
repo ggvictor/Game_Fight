@@ -9,20 +9,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <title>Luta</title>
     <link rel="stylesheet" href="css/fight.css">
+    <script src="js/fight.js" defer></script>
 </head>
 <body>
     <main>
         <h2>Vamos ver se o seu personagem ganha</h2>
         <div class="ringue">
-            <div class="characters">
+            <div class="characters" id="characters">
                 <div>
                     <img src="img/luffy_fight.png" alt="luffy" id="img1">
                     <img src="img/versus.png" alt="versus">
                     <img src="img/naruto_fight.png" alt="naruto" id="img2">
                 </div>
                 <div class="names">
-                    <p>Luffy</p>
-                    <p>Naruto</p>
+                    <p id="name1">Luffy</p>
+                    <p id="name2">Naruto</p>
                 </div>
                 
             </div>
@@ -42,9 +43,9 @@
                 </div>
                 
             </div>
-            <button>Fight</button>
+            <button id="btn">Fight</button>
             <span class="text">Você perdeu!!</span>
-            <div class="loading">
+            <div class="loading" id="loading">
                 <p>Carrgeando...</p>
                 <img src="img/loading.gif" alt="carregando">
             </div>

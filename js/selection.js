@@ -108,6 +108,7 @@ img.forEach((i) => {
   });
 });
 
+// Quando dois estiver selecionado aparecer o botão
 const choosePlayers = ()=>{
   const imgChecked = document.querySelectorAll(".border")
   if(imgChecked.length === 2){
