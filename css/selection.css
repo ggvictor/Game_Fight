@@ -63,3 +63,17 @@ div.container{
    transition: .8s;
    display: none;
 }
+@media(max-width:480px){
+    h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    div.personagens img{
+        height: 70px;
+    }
+}
+@media(max-width:330px){
+    div.personagens img{
+        height: 60px;
+    }
+}

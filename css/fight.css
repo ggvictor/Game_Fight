@@ -103,3 +103,35 @@ h2{
 #btn_r{
     display: none;
 }
+
+@media(max-width:480px){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    h2{
+        display: block;
+        text-align: center;
+        font-size: 23px;
+    }
+    .ringue{
+        width:300px;
+        height:300px;
+    }
+    .ringue img{
+        height: 80px;
+    }
+    .names{
+        gap:207px;
+    }
+    .names p {
+        font-size: 10px;
+    }
+    .attributes{
+        gap:70px;
+    }
+    .att p{
+        font-size: 10px;
+    }
+}

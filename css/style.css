@@ -35,3 +35,12 @@ main button:hover{
    color: #FF22B8;
      
 }
+@media(max-width:480px){
+    main{
+        overflow-x: hidden;
+}
+    main button{
+        width: 300px;
+        font-size: 19px;
+}
+}
